@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+$:.unshift File.expand_path '../lib', File.dirname(__FILE__)
+require "cocoafarm"
+require "cocoafarm/app"
+
+farm = Cocoafarm::App.new
+farm.run ARGV
