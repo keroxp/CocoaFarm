@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yusuke Sakurai"]
   spec.email         = ["kerokerokerop@gmail.com"]
   spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.summary       = "A Project setup tool for Xcode"
+  spec.homepage      = "https://github.com/keroxp/CocoaFarm"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
